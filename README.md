@@ -1,16 +1,10 @@
-# MarketBlockChain
+#KLTstrore IS A BLOCKCHAIN APP
 
 # Ethereum Decentralized application
 This document provides you the guidance on how to create a decentralized application and test on ethereum blockchain network by using Ganache and I wrote the test-case under the test folder.
 
 ### Screen Shots
 
-![Main Screen](3.jpg)
-#
-![Buyer And Seller](2.png)
-#
-![Ether Transaction](1.jpg)
-#
 
 ##### Tools and Frameworks
 We are using following tools and frameworks for this application
@@ -94,7 +88,4 @@ Now ready to the serve the app
 
 #
 
-For help: contact
 
-- Sudhan Manoharan
-- sudhanmanoharan@gmail.com
