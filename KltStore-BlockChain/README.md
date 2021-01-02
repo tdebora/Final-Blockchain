@@ -30,14 +30,7 @@ If you open ganache after install, you can see 10 fake ethereum accounts with ba
 
 ##### 2. Truffle Project
 install truffle and Create truffle project
-Create a directory 'ethereumdapp' and create truffle project. use 'truffle init' command
-```sh
-macs-MBP:MarketBlockChain Sudhan$ npm install -g truffle
-macs-MBP:MarketBlockChain Sudhan$ truffle init
-Downloading...
-Unpacking...
-Setting up...
-Unbox successful. Sweet!
+
 Commands:
   Compile:        truffle compile
   Migrate:        truffle migrate
@@ -46,21 +39,6 @@ Commands:
 ##### 3. Create simple smart contract
 Now I create smart contract file. we use solidity as smart contract programming language version ^0.5.0.
 The purpose of this contract is to initiate a state variable in the blockchain and manipulating that value of that variable by invoking our smart contract method from a dapp.
-
-##### 4. Compile the contract
-Use 'truffle compile' the contract
-```sh
-macs-MBP:MarketBlockChain Sudhan$ truffle compile
-Compiling your contracts...
-===========================
-> Compiling ./contracts/MarketPlace.sol
-> Artifacts written to /Users/Sudhan/Blockchain/MarketBlockChain/build/contracts
-> Compiled successfully using:
-   - solc: 0.5.8+commit.23d335f2.Emscripten.clang
-```
-It creates a MarketPlace..json into the /build folder
-this files contains the ABI details for the contract, meaning that Application Binary Interface. The Application Binary Interface (ABI) is a data encoding scheme used in Ethereum for working with smart contract. this can be used in later stage of this process.
-
 
 
 
