@@ -1,4 +1,5 @@
-# MarketBlockChain
+# KLTSTORE
+Is a Marketplace where different merchants can Have their place for selling , buying or making exibition auction in the same time with different useradmin. In the first part of the project we create a simple market place for selling and buying.
 
 # Ethereum Decentralized application
 This document provides you the guidance on how to create a decentralized application and test on ethereum blockchain network by using Ganache and I wrote the test-case under the test folder.
@@ -10,7 +11,7 @@ We are using following tools and frameworks for this application
 * [truffle](https://www.trufflesuite.com/) - as development tool.
 * [Ganache](https://www.trufflesuite.com/ganache) - as ethereum development test network.
 * [Metamask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) - as Web3 Api injector
-* [angular-cli](https://cli.angular.io/) - as framework for web client application.
+* [react.js](https://fr.reactjs.org/) - as framework for web client application.
 * [Chai](https://www.npmjs.com/package/chai) - as javaScript frameworks commonly used for unit testing.
 
 
@@ -30,6 +31,7 @@ If you open ganache after install, you can see 10 fake ethereum accounts with ba
 
 ##### 2. Truffle Project
 install truffle and Create truffle project
+Create a directory 'ethereumdapp' and create truffle project. use 'truffle init' 
 
 Commands:
   Compile:        truffle compile
@@ -40,8 +42,14 @@ Commands:
 Now I create smart contract file. we use solidity as smart contract programming language version ^0.5.0.
 The purpose of this contract is to initiate a state variable in the blockchain and manipulating that value of that variable by invoking our smart contract method from a dapp.
 
+##### 4. Compile the contract
+Use 'truffle compile' the contract
+
+It creates a Kltstore.json into the /build folder
+this files contains the ABI details for the contract, meaning that Application Binary Interface. The Application Binary Interface (ABI) is a data encoding scheme used in Ethereum for working with smart contract. this can be used in later stage of this process.
 
 
 
-Now ready to the serve the app
+
+
 
